@@ -55,6 +55,7 @@
   font-weight: 400;
   color: var(--dalgona);
   animation: shadowText 2s ease-in-out forwards;
+  animation-delay: 2s;
 }
 
 .user-component__column:last-child {
