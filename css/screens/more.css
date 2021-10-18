@@ -6,6 +6,7 @@
   margin-top: 30px;
   border-top: var(--main-border);
   padding-top: 30px;
+  -ms-overflow-style: none;
 }
 
 .more-suggestions__title {
@@ -14,10 +15,15 @@
 
 .more-suggestions__icons {
   display: flex;
+  overflow-x: scroll;
+}
+
+.more-suggestions__icons::-webkit-scrollbar {
+  display: none;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +33,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--squidGame);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -36,6 +42,10 @@
 }
 
 .more-suggestions__icon i {
-  font-size: 32px;
+  font-size: 30px;
   color: white;
+}
+
+.more-suggestions__icon span {
+  text-align: center;
 }

@@ -1,6 +1,10 @@
 :root {
   --yellow: #fae100;
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.3);
+  --main-border: 2px solid violet;
   --font-gray: #9c9a9a;
+  --dalgona: #bcc185;
+  --sportswear: #0f5354;
+  --umbrella: #274a84;
+  --squidGame: #e03c7b;
 }

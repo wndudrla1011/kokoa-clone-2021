@@ -5,7 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <link
+      rel="icon"
+      ,
+      href="https://image.flaticon.com/icons/png/512/456/456026.png"
+    />
+    <title>Welcome to Squid Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,22 +29,42 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <div class="welcome-header__title">
+        <span>Welcome to</span>
+        <span>Squid Talk</span>
+      </div>
       <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
+        If you have a Squid Account, log in with your email or phone number
       </p>
     </header>
 
     <form action="friends.html" method="GET" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        minlength="10"
+        required
+      />
+      <div class="auto-login__block">
+        <input type="checkbox" />
+        <span>Auto Login</span>
+      </div>
+      <a href="#">Don't you have ID?</a>
       <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <div class="qr-log">QR Log In</div>
+      <a href="#">Find Squid Account or Password</a>
     </form>
 
-    <!-- <div id="no-mobile">
-      <span>Your screen is too big..ㅠㅠ</span>
-    </div> -->
+    <div id="no-mobile">
+      <span>Your screen is too big.</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/f320190c34.js"

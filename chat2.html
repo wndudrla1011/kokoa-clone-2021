@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      ,
+      href="https://image.flaticon.com/icons/png/512/456/456026.png"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ squid game - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar status-bar-chat">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Dalgona</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-chat">
+      <div class="chat__timestamp">Monday, September 27, 2021</div>
+
+      <div class="message-row">
+        <img
+          src="https://static.coupangcdn.com/image/vendor_inventory/e78f/776cade30d180e766bc97eaf7a81f284c0d1ba2eaa1b7e96a4186e5db5ec.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message-row__author">Dlagona</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">
+              [Dalgona Market Event Announcement] <br />Hi. I'm planning a big
+              dalgona event this week. I hope you don't miss this opportunity
+              and enjoy it. Additional discounts are also available for our
+              members, so please participate a lot. Thank you.
+            </span>
+            <span class="message-row__time">21:22</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-laugh-wink fa-lg"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/f320190c34.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

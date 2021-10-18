@@ -1,6 +1,7 @@
 .user-component {
   justify-content: space-between;
   margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .user-component,
@@ -14,6 +15,7 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+  box-shadow: 1px 2px 5px 2px var(--squidGame);
 }
 
 .user-component__title {
@@ -24,7 +26,7 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  color: #bcc185;
+  color: var(--squidGame);
 }
 
 .user-component__avatar--xl {
@@ -38,12 +40,26 @@
   border-radius: 25px;
 }
 
+@keyframes shadowText {
+  from {
+    text-shadow: 1px 3px 3px #f9c309, 1px 3px 3px #fed40d, 1px 2px 2px #f6ac0c,
+      1px 2px 2px #de830a;
+    opacity: 0.5;
+  }
+  to {
+    transform: none;
+  }
+}
+
 .user-component__title--not-bold {
   font-weight: 400;
+  color: var(--dalgona);
+  animation: shadowText 2s ease-in-out forwards;
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--sportswear);
+  opacity: 0.5;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -55,20 +71,20 @@
 }
 
 .user-component__mark {
-  color: red;
+  color: var(--squidGame);
   font-weight: 600;
   font-size: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 120px;
+  left: 100px;
   bottom: 0px;
   width: 13px;
   height: 13px;
   border-radius: 8px;
-  border: 1.6px solid red;
-  margin-left: 5px;
+  border: var(--main-border);
+  padding-top: 2px;
 }
 
 .user-component__text {

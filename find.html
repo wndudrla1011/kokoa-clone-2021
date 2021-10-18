@@ -2,10 +2,15 @@
 <html lang="kr">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      ,
+      href="https://image.flaticon.com/icons/png/512/456/456026.png"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>Find - Squid Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -37,7 +42,7 @@
         <div class="icon-row__icon">
           <i class="fas fa-qrcode"></i><span>QR Code</span>
         </div>
-        <div class="icon-row__icon">
+        <div class="icon-row__icon icon-row__icon--sm">
           <i class="far fa-address-book"></i><span>Add by Contacts</span>
         </div>
         <div class="icon-row__icon">
@@ -49,7 +54,41 @@
       </div>
       <div class="recommended-friends">
         <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recomended Friends</span>
+        <div class="recommended-friends__lists">
+          <div class="recommended-friends__list">
+            <img
+              src="https://img5.yna.co.kr/photo/cms/2020/04/27/10/PCM20200427000010005_P4.jpg"
+            />
+            <span>Hae Su Park</span>
+          </div>
+          <div class="recommended-friends__list">
+            <img
+              src="https://w.namu.la/s/963aa94524dd596c88244398d1e0646344dacd95778e266c5fabc8cf1e5f4cd5abec94def47117506934dd4502640faa3051ee10de4aa9b82f65501b7900a03bb3f256ffd09c8e88fb3a1c7b59c43d86"
+            />
+            <span>Seong Tae Heo</span>
+          </div>
+          <div class="recommended-friends__list">
+            <img
+              src="https://cdn.topstarnews.net/news/photo/202110/14637725_704062_2818.jpg"
+            />
+            <span>Yeong Su Oh</span>
+          </div>
+          <div class="recommended-friends__list">
+            <img
+              src="http://www.veritas-a.com/news/photo/202004/318478_218493_957.jpg"
+            />
+            <span>Ju Ryeong Kim</span>
+          </div>
+          <div class="recommended-friends__list">
+            <img
+              src="https://w.namu.la/s/ca4ede12f3637c27c1037e852c8c210137a124a710c2b391553afc4535510d3e510f65b970fc001a392d2ae0711de0abf22601ee107226ffc3f0552b0c285260f0c2af9b949b8d28ff158d07e396095020a2cac5a075d72977f56edbe38d641b"
+            />
+            <span>Byeong Heon Lee</span>
+          </div>
+          <div class="recommended-friends__list">
+            <i class="far fa-arrow-alt-circle-right fa-lg"></i>
+          </div>
+        </div>
       </div>
       <div class="open-chat">
         <div class="open-chat__header">
@@ -61,13 +100,13 @@
       </div>
       <div class="open-post">
         <div class="open-post__column">
-          <h5 class="open-post__title">#BTS</h5>
-          <h6 class="open-post__hashtags">#bts#army#friends</h6>
+          <h5 class="open-post__title">#Brave Girls</h5>
+          <h6 class="open-post__hashtags">#bvg#rollin#all the rage</h6>
           <div class="open-post__members">
             <img
               src="https://images.chosun.com/resizer/iksb_GxiHITk5APwQXOhvaiKYTc=/616x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/MEDK65WNXBHK5OR7CXLNJXPMZA.jpg"
             />
-            <span class="open-post__member-count">802 members</span>
+            <span class="open-post__member-count">1600 members</span>
             <div class="divider"></div>
             <span class="open-post__member-status">Active</span>
           </div>
@@ -75,10 +114,10 @@
         <div class="open-post__column">
           <div class="open-post__photo">
             <img
-              src="https://dynamicmedia.livenationinternational.com/Media/i/w/j/04d94a22-c1b4-4f81-8823-1e79512c689b.jpg"
+              src="http://file2.nocutnews.co.kr/newsroom/image/2021/04/12/202104121827546940_0.jpg"
             />
             <div class="open-post__heart-count">
-              <i class="fas fa-heart"></i><span>326</span>
+              <i class="fas fa-heart"></i><span>583</span>
             </div>
           </div>
         </div>
@@ -94,7 +133,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">9</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
@@ -112,9 +151,9 @@
       </ul>
     </nav>
 
-    <!-- <div id="no-mobile">
-      <span>Your screen is too big..ㅠㅠ</span>
-    </div> -->
+    <div id="no-mobile">
+      <span>Your screen is too big.</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/f320190c34.js"

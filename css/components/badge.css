@@ -1,5 +1,5 @@
 .badge {
-  background-color: tomato;
+  background-color: var(--dalgona);
   width: 30px;
   height: 30px;
   border-radius: 15px;
@@ -8,4 +8,5 @@
   align-items: center;
   color: white;
   font-weight: 600;
+  animation: notificationAnimation 1s linear infinite;
 }

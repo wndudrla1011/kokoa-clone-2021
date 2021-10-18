@@ -1,7 +1,6 @@
 .icon-row {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
 }
 
 .icon-row__icon {
@@ -12,12 +11,13 @@
   padding: 10px;
   box-sizing: border-box;
   transition: color 0.3s ease-in-out;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--squidGame);
+  opacity: 0.5;
 }
 
 .icon-row__icon:hover {
   cursor: pointer;
-  color: black;
+  color: var(--dalgona);
 }
 
 .icon-row__icon i {
@@ -27,8 +27,12 @@
 
 .icon-row__icon span {
   margin-top: 18px;
+  font-size: 12px;
 }
 
-.icon-row__icon span {
-  font-size: 12.6px;
+@media screen and (max-width: 510px) {
+  .icon-row__icon span {
+    font-size: 10px;
+    font-weight: 600;
+  }
 }
