@@ -1,3 +1,5 @@
-# Kokoa Clone 2021 Update
+# Squid Talk 2021 Update
 
-HTML & CSS are so much fun!
+This SW is chat program.
+It is completed (oct 19 2021)
+I made it into a squid game version.
