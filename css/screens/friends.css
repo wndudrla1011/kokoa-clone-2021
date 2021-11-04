@@ -74,6 +74,11 @@
   flex-direction: column;
   animation: hideSplashScreen 1s ease-in-out forwards;
   animation-delay: 2.5s;
+  -ms-overflow-style: none;
+}
+
+.splash-screen::-webkit-scrollbar {
+  display: none;
 }
 
 @keyframes shakeFace {
